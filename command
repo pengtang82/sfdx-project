@@ -24,3 +24,11 @@ git add .
 git commit -m "first commit"
 git remote add origin git@github.com:pengtang82/sfdx-project.git
 git push -u origin master
+
+https://trailhead.salesforce.com/content/learn/projects/develop-app-with-salesforce-cli-and-source-control/add-salesforce-dx-project-to-source-control
+
+create scratch org
+sfdx force:org:create --setdefaultusername --setalias sfdx-chan --definitionfile config/project-scratch-def.json
+
+
+sfdx force:source:pull
